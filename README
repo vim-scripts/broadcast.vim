@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=316
+
+This plugin lets you broadcast to all GVIM windows (or all other windows except current).  Especially handy for someone who prefers to open each file in a separate window instead of a separate buffer.  Lots of things possible, for example:
+
+Globally replace text across all GVIM windows:
+   :Bcast :%s/oldtext/newtext/g<CR>
+
+Exit all other opened GVIM windows:
+   :Bcast0 :q<CR>
+
